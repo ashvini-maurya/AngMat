@@ -1,0 +1,53 @@
+<!-- <h1>
+  {{title}}
+</h1>
+ -->
+
+
+
+
+ <div class="row">
+	<div class="col-3 col-m-3 menu">
+	</div>
+	<div class="col-6 col-m-6">
+
+		<div class="login-page">
+			<div class="login-heading" align="center">
+				<h1>Task #1</h1>
+			</div>
+			
+			<div class="login-form" align="center">
+				<form class="example-form" (submit)="loginWithEmail($event)">
+					<table class="example-full-width" cellspacing="0">
+						<tr>
+							<td align="center">
+								<md-input-container class="example-full-width">
+									<input  mdInput #email type="email" id="email" class="form-control" placeholder="Email address">
+								</md-input-container>
+							</td>
+						</tr>
+						<tr>
+							<td align="center">
+								<md-input-container class="example-full-width">
+									<input  mdInput #password type="password" id="password" class="form-control" placeholder="Password" required="">
+								</md-input-container>
+							</td>
+						</tr>
+						<tr>
+							<td align="center ">
+								<!-- <a md-raised-button color="" (click)="loginWithEmail($event)">Login</a> -->
+								<a routerLink="/home">Login</a>
+							</td>
+						</tr>
+					</table>
+				</form>
+			</div> 
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<router-outlet></router-outlet>
+	</div>
+</div>
