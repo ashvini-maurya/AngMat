@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { MaterialModule } from '@angular/material';
 import 'hammerjs';
+import { AlertModule } from 'ng2-bootstrap/ng2-bootstrap';
 
 
 
@@ -26,7 +27,8 @@ import { LoginComponent } from './login/login.component';
     FormsModule,
     HttpModule,
     MaterialModule,
-    RoutingModule
+    RoutingModule,
+    AlertModule
   ],
   providers: [],
   bootstrap: [AppComponent]
