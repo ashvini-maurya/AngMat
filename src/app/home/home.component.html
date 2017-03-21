@@ -1,7 +1,4 @@
-<!-- <p>
-	Home page
-</p> -->
-
+<div class="header-bar">
 	<div class="header-dialog">
 		<md-menu #menu="mdMenu">
 		  <button md-menu-item>Item 1</button>
@@ -10,26 +7,27 @@
 		<button md-button [mdMenuTriggerFor]="menu">
 			Menu
 		</button>
+	</div>	
 
-		<h4 align="center">Book Openend</h4>
+	<h4 align="center">Book Openend</h4>
 
-		<div align="right">
-			<md-menu #appMenu="mdMenu">
-			  <button md-menu-item> Logout </button>
-			</md-menu>
+	<div class="logout-dialog" align="right">
+		<md-menu #appMenu="mdMenu">
+		  <button md-menu-item> Logout </button>
+		</md-menu>
 
-			<button md-icon-button [mdMenuTriggerFor]="appMenu">
-			   <md-icon>more_vert</md-icon>
-			</button>
-		</div>
+		<button md-icon-button [mdMenuTriggerFor]="appMenu">
+		   <md-icon>more_vert</md-icon>
+		</button>
 	</div>
-	<br><br>
+</div>
 
-	<div class="info-bar">
-		<button>GDB</button>
-		<button>Coppy Symbol</button>
-	</div>
+<br><br>
 
+<div class="info-bar">
+	<button>GDB</button>
+	<button>Coppy Symbol</button>
+</div>
 
 <br><br>
 

@@ -1,6 +1,15 @@
-.header-dialog {
+.header-bar {
 	background-color: #33b5e5;
-    padding: 15px;
+}
+
+.header-dialog {
+	padding-top: 80px;
+	padding-left: 20px;
+}
+
+.logout-dialog {
+	padding-bottom: 100px;
+	padding-right: 20px;
 }
 
 .info-bar {
