@@ -6,15 +6,15 @@
 		</md-sidenav>
 
 		<div class="example-sidenav-content">
-			<button (click)="sidenav.open()">
+			<div (click)="sidenav.open()">
 				<!-- Open sidenav -->
-				<a class="btn">
+				<a class="btn btn-primary">
 				  <i class="fa fa-bars" aria-hidden="true"></i>
 				</a>
-			</button>
+			</div>
 		</div>
 
-		<h4 align="center">Book Openend</h4>
+		<h4 align="center">Heading</h4>
 
 		<div class="logout-dialog" align="right">
 			<md-menu #appMenu="mdMenu">
@@ -34,14 +34,19 @@
 
 <div class="info-bar">
 	<button>GDB</button>
-	<button>Copy Symbol</button>
+	<i class="fa fa-files-o fa-lg" aria-hidden="true"></i>
+	<button>SGDB</button>
 </div>
 
 <br><br>
 
-<div align="center">
-	<textarea rows="8" cols="100">
+<div align="center" class="textbox">
+	<textarea name="textarea"
+		rows="8" cols="100">
 	</textarea>
 	<br>
-	<button>Go</button>
+	<div class="go-button">
+		<button>Go</button>
+	</div>
 </div>
+

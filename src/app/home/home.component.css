@@ -5,22 +5,21 @@
 
 .logout-dialog {
 	padding-right: 20px;
-	/*padding-top: 0px;*/
 }
 
 .info-bar {
+	padding-top: 10px;
 	background-color: yellow;
+	height: 50px;
+	text-align: center;
 }
 
 .example-container {
- /* width: 500px;*/
   height: 1000px;
-  /*border: 1px solid rgba(0, 0, 0, 0.5);*/
 }
 
 .example-sidenav-content {
   display: flex;
-  /*height: 100%;*/
   align-items: center;
   justify-content: center;
 }
@@ -28,4 +27,15 @@
 .example-sidenav {
   padding: 20px;
   background-color: skyblue;
+}
+
+.textbox {
+	position: relative;
+}
+
+.go-button {
+	position: relative;
+	top: 5px;
+	right: -340px;
+
 }
