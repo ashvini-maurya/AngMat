@@ -5,6 +5,7 @@
 
 .logout-dialog {
 	padding-right: 20px;
+	padding-left: 60px;
 }
 
 .info-bar {
@@ -30,10 +31,15 @@
 .go-button {
 	position: relative;
 	top: 5px;
-	right: -315px;
+	right: -205px;
 
 }
 
 .toolbar-heading {
 	padding-left: 45%;
+}
+
+.input-field {
+	width: 500px;
+	height: 100px;
 }

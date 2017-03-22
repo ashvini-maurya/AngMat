@@ -12,6 +12,24 @@
 		    <div class="toolbar-heading">
 		     Toolbar Heading
 		    </div>
+
+
+
+
+		    <div class="logout-dialog">
+			    <md-menu #appMenu="mdMenu">
+				  <button md-menu-item> Logout </button>
+				</md-menu>
+				<button md-icon-button [mdMenuTriggerFor]="appMenu">
+				   <md-icon>more_vert</md-icon>
+				</button>
+			</div>
+
+
+
+
+
+
     	</md-toolbar> 
 
 		<md-sidenav #sidenav class="example-sidenav">
@@ -20,14 +38,22 @@
 		</md-sidenav>
 	
 
-		<div class="logout-dialog" align="right">
+		<!-- <div class="logout-dialog" align="right">
 			<md-menu #appMenu="mdMenu">
 			  <button md-menu-item> Logout </button>
 			</md-menu>
 			<button md-icon-button [mdMenuTriggerFor]="appMenu">
 			   <md-icon>more_vert</md-icon>
 			</button>
-		</div>
+		</div> -->
+
+
+
+
+
+
+
+
 
 	</md-sidenav-container>	
 </div>
@@ -44,12 +70,16 @@
 <br><br>
 
 <div align="center" class="textbox">
-	<textarea name="textarea"
-		rows="8" cols="100">
-	</textarea>
+	<md-input-container class="input-field">
+	   <textarea mdInput md-autosize minRows="3" placeholder="Input Your Text" name="message"></textarea>
+	</md-input-container>
 	<br>
 	<div class="go-button">
 		<button md-button>Go</button>
 	</div>
 </div>
+
+
+
+
 
