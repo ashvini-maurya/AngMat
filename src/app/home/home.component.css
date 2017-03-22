@@ -18,12 +18,6 @@
   height: 1000px;
 }
 
-.example-sidenav-content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .example-sidenav {
   padding: 20px;
   background-color: skyblue;
@@ -36,6 +30,10 @@
 .go-button {
 	position: relative;
 	top: 5px;
-	right: -340px;
+	right: -315px;
 
+}
+
+.toolbar-heading {
+	padding-left: 45%;
 }
