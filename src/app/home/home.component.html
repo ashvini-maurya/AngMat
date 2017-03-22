@@ -13,22 +13,18 @@
 		     Toolbar Heading
 		    </div>
 
-
-
-
 		    <div class="logout-dialog">
+		    	<div class="icon-ellipsis-vertical">
+					<button md-icon-button [mdMenuTriggerFor]="appMenu">
+					   <md-icon>more_vert</md-icon>
+					</button>
+				</div>
+				
 			    <md-menu #appMenu="mdMenu">
 				  <button md-menu-item> Logout </button>
 				</md-menu>
-				<button md-icon-button [mdMenuTriggerFor]="appMenu">
-				   <md-icon>more_vert</md-icon>
-				</button>
+
 			</div>
-
-
-
-
-
 
     	</md-toolbar> 
 
@@ -36,24 +32,6 @@
 			<button md-menu-item>Item 1</button><br>
 	  		<button md-menu-item>Item 2</button>
 		</md-sidenav>
-	
-
-		<!-- <div class="logout-dialog" align="right">
-			<md-menu #appMenu="mdMenu">
-			  <button md-menu-item> Logout </button>
-			</md-menu>
-			<button md-icon-button [mdMenuTriggerFor]="appMenu">
-			   <md-icon>more_vert</md-icon>
-			</button>
-		</div> -->
-
-
-
-
-
-
-
-
 
 	</md-sidenav-container>	
 </div>
